@@ -48,17 +48,19 @@ nav .content .links a {
 }
 nav .dropdown {
     display: none;
-    background-color: #2b2b28;
+    background-color: #ecf7f6;
     text-align: center;
     height: 85vh;
 }
 nav .dropdown a {
-    color: #e3b04b;
-    /* padding: 30px; */
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
 }
+shnnon-curran.squarespace.com
 nav .dropdown a:hover {
-    color: #f1d6ab;
-    background-color: #e3b04b;
+    /* color: #f1d6ab;
+    background-color: #e3b04b; */
 }
 @media only screen and (max-width: 800px) {
     nav .content .menu {
