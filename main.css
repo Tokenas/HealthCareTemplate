@@ -46,6 +46,9 @@ nav .content .links a {
     font-weight: 400;
     text-transform: capitalize;
 }
+nav .content .links a:hover {
+    color: #71a39a;
+}
 nav .dropdown {
     display: none;
     background-color: #ecf7f6;
@@ -57,10 +60,8 @@ nav .dropdown a {
     text-decoration: none;
     text-transform: capitalize;
 }
-shnnon-curran.squarespace.com
 nav .dropdown a:hover {
-    /* color: #f1d6ab;
-    background-color: #e3b04b; */
+    color: #71a39a;
 }
 @media only screen and (max-width: 800px) {
     nav .content .menu {
