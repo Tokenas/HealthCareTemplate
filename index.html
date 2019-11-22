@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">
+    <title>Psychologist</title>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="content">
+            <h1><a href="link">Maria Hope, Ph.D. - Psychologist</a></h1>
+            <div class="links">
+                <a href="link">home</a>
+                <a href="link">about</a>
+                <a href="link">sevices</a>
+                <a href="link">blog</a>
+                <a href="link">contact</a>
+            </div>
+            <i class="material-icons menu" onclick="menu()">menu</i>
+        </div>
+            <div class="dropdown">
+                <div class="menu-size">
+                        <li><a href="link">home</a></li>
+                        <hr style="border-top: 1.5px solid black; width: 6%; margin: auto;">
+                        <li><a href="link">about</a></li>
+                        <hr style="border-top: 1.5px solid black; width: 6%; margin: auto;">
+                        <li><a href="link">sevices</a></li>
+                        <hr style="border-top: 1.5px solid black; width: 6%; margin: auto;">
+                        <li><a href="link">blog</a></li>
+                        <hr style="border-top: 1.5px solid black; width: 6%; margin: auto;">
+                        <li><a href="link">contact</a></li>
+                </div>
+            </div>
+    </nav>
+</body>
+<!-- NAVIGATION -->
+<script>
+    var dropdown = document.querySelector("nav .dropdown");
+    var button = document.querySelector("nav .menu");
+    
+    function menu() {
+        if (dropdown.style.display === "grid") {
+            dropdown.style.display = "none";
+            button.innerHTML = "menu";
+        } else {
+            dropdown.style.display = "grid";
+            button.innerHTML = "close";
+        }
+    }
+    addEventListener("resize", function () {
+    if (window.innerWidth > 700)  {
+        dropdown.style.display = "none";
+        button.innerHTML = "menu";
+    }
+    }
+    )
+    </script>
+</html>
