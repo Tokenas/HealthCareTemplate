@@ -10,9 +10,9 @@ body * {
 nav {
     display: grid;
     grid-template-rows: minmax(min-content, 100px) min-content;
-    /* position: sticky;
+    position: sticky;
     z-index: 5;
-    top: 0; */
+    top: 0;
 }
 nav .content > h1 > a {
     color: black;
