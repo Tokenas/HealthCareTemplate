@@ -97,8 +97,7 @@ nav .dropdown .menu-size > li {
     letter-spacing: 2px;
 }
 /* .material-icons {
-    padding-top: 70px;
-    color: black;
+    padding-top: 70px; color: black;
 } */
 .img {
     width: 100%;
@@ -112,9 +111,9 @@ nav .dropdown .menu-size > li {
         grid-template-rows: 1fr 1fr;
     }
     .card .side-text {
-        padding-top: 20px;
+        padding-top: 30px;
         font-size: 40px;
-        line-height: 60px;
+        line-height:53px;
     }
     .img {
         width: 100%;
