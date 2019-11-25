@@ -141,10 +141,20 @@ nav .dropdown .menu-size > li {
 .about > p {
     padding: 40px 10px 0 10px;
 }
+.img-face {
+    overflow: hidden;
+}
 .human-img {
     justify-self: center;
-    border: 2px solid red;
     width: 450px;
-    align-items: center;
     margin-top: -280px;
+}
+@media only screen and (max-width: 800px) {
+    .about-container {
+        padding-top: 0;
+        grid-template-rows: 550px 600px;
+    }
+    .human-img {
+        margin-top: 0;
+    }
 }
