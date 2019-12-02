@@ -184,7 +184,7 @@ nav .dropdown .menu-size > li {
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: 0 auto;
-    grid-template-rows: 550px 550px 550px;
+    grid-template-rows: 550px;
     text-align: center;
 }
 .individual {
@@ -193,22 +193,25 @@ nav .dropdown .menu-size > li {
     background-color: #e3efcc;
 }
 .uno {
-    padding-top: 20px;
+    overflow-wrap: break-word;
+    padding: 20px 15px 0 15px;
     line-height: 75px;
     text-transform: capitalize;
 }
 .dos > p {
+    word-break: break-all;
     font-size: 18px;
     line-height: 30px;
     padding: 20px 55px 0 55px;
-    /* padding-bottom: 40px; */
 }
 .group {
+    height: 550px;
     padding-top: 45px;
     font-size: 25px;
     background-color: #e8e8e3;
 }
 .couple {
+    height: 550px;
     padding-top: 45px;
     font-size: 25px;
     background-color: #d2ece7;
