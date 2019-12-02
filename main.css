@@ -166,7 +166,11 @@ nav .dropdown .menu-size > li {
         padding-top: 0;
         grid-template-rows: 550px 600px;
     }
+    .about > p {
+        padding: 40px 20px 0 20px;
+    }
     .human-img {
+        width: 100%;
         margin-top: 0;
     }
     br {
@@ -174,3 +178,43 @@ nav .dropdown .menu-size > li {
     }
 }
 /* SERVICES */
+.services {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-rows: 550px;
+    text-align: center;
+}
+.individual {
+    padding-top: 45px;
+    font-size: 25px;
+    background-color: #e3efcc;
+}
+.uno {
+    padding-top: 20px;
+    line-height: 75px;
+    text-transform: capitalize;
+}
+.dos > p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 55px 0 55px;
+}
+.group {
+    padding-top: 45px;
+    font-size: 25px;
+    background-color: #e8e8e3;
+}
+.couple {
+    padding-top: 45px;
+    font-size: 25px;
+    background-color: #d2ece7;
+}
+@media only screen and (max-width: 800px) {
+    .services {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
