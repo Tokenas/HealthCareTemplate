@@ -223,24 +223,45 @@ nav .dropdown .menu-size > li {
 }
 
 /* FOOTER */
-
-.footer {
-    padding: 50px 0 25px 0;
-    display: grid;
-    width: 90%;
-    background-color: #eef9bf;
+.middle {
     margin: 0 auto;
     margin-top: 76px;
-    margin-bottom: 15px;
+    padding: 50px 0 50px 0;
     text-align: center;
-}
-.footer > .info-bottom > p {
-    padding: 0 12px 0 12px;
-    font-family: "Times New Roman", Times, serif;
+    background:#e3efcc;;
+    width: 90%;
 }
 @media only screen and (max-width: 800px) {
-    .footer {
-        grid-template-columns: 1fr;
+    .middle {
+
         width: 100%;
     }
 }
+.btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #272727;
+}
+.btn > i {
+    line-height: 50px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.copyright-text {
+    padding-top: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+.copyright-text > a {
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    color: #263f44;
+}
+
