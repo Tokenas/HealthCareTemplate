@@ -155,10 +155,16 @@ nav .dropdown .menu-size > li {
 .img-face {
     overflow: hidden;
 }
+.smth {
+    padding-top: 20px;
+}
 .human-img {
-    justify-self: center;
-    width: 450px;
-    margin-top: -280px;
+    padding-bottom: 70px;
+
+    /* margin-left: 150px; */
+    /* justify-self: center; */
+    /* width: 450px; */
+    /* margin-top: -280px; */
 }
 @media only screen and (max-width: 800px) {
     .about-container {
@@ -178,7 +184,7 @@ nav .dropdown .menu-size > li {
 }
 /* SERVICES */
 .services {
-    padding-top: 80px;
+    padding-top: 170px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
@@ -233,7 +239,6 @@ nav .dropdown .menu-size > li {
 }
 @media only screen and (max-width: 800px) {
     .middle {
-
         width: 100%;
     }
 }
