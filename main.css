@@ -184,7 +184,7 @@ nav .dropdown .menu-size > li {
 }
 /* SERVICES */
 .services {
-    padding-top: 150px;
+    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
